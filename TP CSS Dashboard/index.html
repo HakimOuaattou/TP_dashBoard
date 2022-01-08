@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard | Hakim Ouaattou</title>
+		<!-- favicon -->
+		<link rel="icon" href="Assets/images/icon.png" />
+		<!-- Import CSS file -->
+		<link rel="stylesheet" href="Assets/css/style.css" />
+		<!-- Import FontAwsome -->
+		<link rel="stylesheet" href="Assets/css/all.min.css" />
+		<!-- Import GoogleFonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Aside Section-->
+		<section class="container">
+			<!-- Aside Section -->
+			<aside class="aside">
+				<article class="admin">
+					<i class="fas fa-laugh-wink"></i>
+					<h4>H. OUAATTOU <sup>2</sup></h4>
+				</article>
+				<menu class="menu">
+					<article class="dashBoard">
+						<a href="#">
+							<i class="fas fa-tachometer-alt"></i>
+							<span>Dashboard</span>
+						</a>
+					</article>
+					<article class="interface">
+						<span class="title">INTERFACE</span>
+						<article class="components">
+							<a href="#">
+								<div class="left">
+									<i class="fas fa-cog"></i>
+									<span>Components</span>
+								</div>
+								<div class="right">
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</a>
+						</article>
+						<article class="utilites">
+							<a href="#">
+								<div class="left">
+									<i class="fas fa-wrench"></i>
+									<span>Utilites</span>
+								</div>
+								<div class="right">
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</a>
+						</article>
+					</article>
+					<article class="addons">
+						<span class="title">ADDONS</span>
+						<article class="pages">
+							<a href="#">
+								<div class="left">
+									<i class="fas fa-folder"></i>
+									<span>Pages</span>
+								</div>
+								<div class="right">
+									<i class="fas fa-chevron-right"></i>
+								</div>
+							</a>
+						</article>
+						<article class="charts">
+							<a href="#">
+								<i class="fas fa-chart-area"></i>
+								<span>Charts</span>
+							</a>
+						</article>
+						<article class="tables">
+							<a href="#">
+								<i class="fas fa-table"></i>
+								<span>Tables</span>
+							</a>
+						</article>
+					</article>
+				</menu>
+				<article class="toggle">
+					<div class="arrow">
+						<i class="fas fa-chevron-left"></i>
+					</div>
+				</article>
+				<article class="upgrade">
+					<img src="Assets/images/rocket.png" alt="" />
+					<p><span>H. OUAATTOU Pro</span> is packed with premium features, components, and more!</p>
+					<button>Upgrade to Pro!</button>
+				</article>
+			</aside>
+			<!-- Main Section -->
+			<main class="main">
+				<article class="content">
+					<!----- NavBar Section ----->
+					<nav class="nav">
+						<article class="left">
+							<span class="toggleMenu"><i class="fas fa-bars"></i></span>
+
+							<div class="searchBox">
+								<input type="search" name="search" id="search" placeholder="Search for..." />
+								<button><i class="fas fa-search"></i></button>
+							</div>
+						</article>
+						<section class="right">
+							<article class="notif_message">
+								<i class="fas fa-bell"></i>
+								<i class="fas fa-envelope"></i>
+								<span class="toggleSearch"><i class="fas fa-search"></i></span>
+							</article>
+							<article class="profile">
+								<span class="name">Hakim Ouaattou</span>
+								<img src="Assets/images/profile.png" alt="" />
+							</article>
+						</section>
+					</nav>
+					<!----- Small Cards ----->
+					<section class="smallCards">
+						<article class="top">
+							<span>Dashboard</span>
+							<button><i class="fas fa-download"></i> Generate Report</button>
+						</article>
+						<article class="bottom">
+							<article class="card earnings_M">
+								<div class="left">
+									<span class="title">EARNINGS (MONTHLY)</span>
+									<span class="value">$40,000</span>
+								</div>
+								<div class="right"><i class="fas fa-calendar"></i></div>
+							</article>
+							<article class="card earnings_A">
+								<div class="left">
+									<span class="title">EARNINGS (ANNUAL)</span>
+									<span class="value">$215,000</span>
+								</div>
+								<div class="right"><i class="fas fa-dollar-sign"></i></div>
+							</article>
+							<article class="card tasks">
+								<div class="left">
+									<span class="title">TASKS</span>
+									<span class="value">50%</span>
+								</div>
+								<div class="center">
+									<div class="progresBar"></div>
+								</div>
+								<div class="right"><i class="fas fa-clipboard-list"></i></div>
+							</article>
+							<article class="card pendingReq">
+								<div class="left">
+									<span class="title">PENDING REQUESTS</span>
+									<span class="value">18</span>
+								</div>
+								<div class="right"><i class="fas fa-comments"></i></div>
+							</article>
+						</article>
+					</section>
+					<!----- Charts ----->
+					<section class="charts">
+						<!-- curve -->
+						<article class="chart_curve">
+							<article class="top">
+								<span>Earnings Overview</span>
+								<i class="fas fa-ellipsis-v"></i>
+							</article>
+							<article class="curve">
+								<img src="Assets/images/chart.png" alt="" />
+							</article>
+						</article>
+						<!-- circle -->
+						<article class="chart_circle">
+							<article class="top">
+								<span>Revenue Sources</span>
+								<i class="fas fa-ellipsis-v"></i>
+							</article>
+							<article class="circle">
+								<div class="cir"></div>
+								<div class="info">
+									<div class="color color1"></div>
+									<div class="text">Direct</div>
+									<div class="color color2"></div>
+									<div class="text">Social</div>
+									<div class="color color3"></div>
+									<div class="text">Referral</div>
+								</div>
+							</article>
+						</article>
+					</section>
+					<!-- Projects & illustration -->
+					<section class="proj_illustr">
+						<!-- Colone 1-->
+						<article class="colone1">
+							<!-- Projects -->
+							<article class="projects">
+								<article class="top">
+									<span>Projects</span>
+									<i class="fas fa-ellipsis-v"></i>
+								</article>
+								<article class="progress">
+									<div class="prog-holder">
+										<h4>Server Migration</h4>
+										<div class="prog">
+											<span class="dangerColor" style="width: 20%" data-progress="20%"></span>
+										</div>
+									</div>
+									<div class="prog-holder">
+										<h4>Sales Tracking</h4>
+										<div class="prog">
+											<span class="warningColor" style="width: 40%" data-progress="40%"></span>
+										</div>
+									</div>
+									<div class="prog-holder">
+										<h4>Customer Database</h4>
+										<div class="prog">
+											<span class="primaryColor" style="width: 60%" data-progress="60%"></span>
+										</div>
+									</div>
+									<div class="prog-holder">
+										<h4>Payout Details</h4>
+										<div class="prog">
+											<span class="infoColor" style="width: 80%" data-progress="80%"></span>
+										</div>
+									</div>
+									<div class="prog-holder">
+										<h4>Account Setup</h4>
+										<div class="prog">
+											<span class="successColor" style="width: 100%" data-progress="completed!"></span>
+										</div>
+									</div>
+								</article>
+							</article>
+							<!-- Colors -->
+							<article class="colors">
+								<div class="color primary">
+									<span class="name">Primary</span>
+									<span class="code">#4e73df</span>
+								</div>
+								<div class="color Success">
+									<span class="name">Success</span>
+									<span class="code">#1cc88a</span>
+								</div>
+								<div class="color Info">
+									<span class="name">Info</span>
+									<span class="code">#36b9cc</span>
+								</div>
+								<div class="color Warning">
+									<span class="name">Warning</span>
+									<span class="code">#f6c23e</span>
+								</div>
+								<div class="color Danger">
+									<span class="name">Danger</span>
+									<span class="code">#e74a3b</span>
+								</div>
+								<div class="color Secondary">
+									<span class="name">Secondary</span>
+									<span class="code">#858796</span>
+								</div>
+								<div class="color Light">
+									<span class="name">Light</span>
+									<span class="code">#f8f9fc</span>
+								</div>
+								<div class="color Dark">
+									<span class="name">Dark</span>
+									<span class="code">#5a5c69</span>
+								</div>
+							</article>
+						</article>
+						<!-- Colone 2-->
+						<article class="colone2">
+							<article class="illustrations">
+								<article class="top">
+									<span>Illustrations</span>
+								</article>
+								<article class="content">
+									<div class="image">
+										<img src="Assets/images/img.svg" alt="" />
+									</div>
+									<p>
+										Add some quality, svg illustrations to your project courtesy of unDraw, a constantly updated collection of beautiful svg images that you can use completely free and without
+										attribution!
+									</p>
+									<a href="#">Browse Illustrations on unDraw →</a>
+								</article>
+							</article>
+							<article class="dev_approach">
+								<article class="top">
+									<span>Development Approach</span>
+								</article>
+								<article class="content">
+									<p>
+										SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and
+										custom utility classes. Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.
+									</p>
+								</article>
+							</article>
+						</article>
+					</section>
+				</article>
+
+				<!-- footer -->
+				<button class="strollToTop"><i class="fas fa-angle-up"></i></button>
+				<footer class="footer">
+					<p>HAKIM OUAATTOU | Copyright © My Website 2021</p>
+				</footer>
+			</main>
+		</section>
+
+		<script src="Assets/js/main.js"></script>
+	</body>
+</html>
